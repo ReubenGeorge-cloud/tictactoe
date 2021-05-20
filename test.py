@@ -1,1 +1,0 @@
-print("    oooo    \n  oo    oo  \n oo      oo \n  oo    oo  \n    oooo    ")
