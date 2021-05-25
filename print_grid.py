@@ -22,7 +22,7 @@ class grid:
             return self.arr[0][i]
       if (self.arr[0][0] == self.arr[1][1] and self.arr[1][1] == self.arr[2][2]):            #checking left to right diagonal
          return self.arr[1][1]
-      elif (self.arr[0][0] == self.arr[1][1] and self.arr[1][1] == self.arr[2][2]):          #checking right to left diagonal
+      elif (self.arr[0][2] == self.arr[1][1] and self.arr[1][1] == self.arr[2][0]):          #checking right to left diagonal
          return self.arr[1][1]
       else:
          return 4                                                                            #continues to the next turn
