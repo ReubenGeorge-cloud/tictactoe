@@ -4,7 +4,7 @@
 			"path": "."
 		},
 		{
-			"path": "../ROS_SMP"
+			"path": "..\\ROS_SMP"
 		}
 	],
 	"settings": {}
