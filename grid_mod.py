@@ -11,7 +11,7 @@ class grid:
         self.dict = {0: self.none, 1: self.x, 2: self.o}
         self.hline = "---------------|--------------|---------------"
 
-    def print_grid(self):  # prints the grid using dict function
+    def print_grid(self):  # prints the grid using the dict function
         for i in range(3):
             for j in range(5):
                 print('|', self.dict[self.arr[i][0]][j], '|', self.dict[self.arr[i][1]][j],
